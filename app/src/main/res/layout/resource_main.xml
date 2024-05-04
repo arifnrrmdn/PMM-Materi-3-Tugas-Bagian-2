@@ -9,6 +9,14 @@
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".ResourceActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Antar Muka"
+        android:textAlignment="center" />
+
     <TextView
         android:id="@+id/appNameTextView"
         android:layout_width="wrap_content"
@@ -19,5 +27,5 @@
         android:layout_width="171dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/photo" />
+        android:src="@drawable/dosen" />
 </LinearLayout>
